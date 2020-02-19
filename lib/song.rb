@@ -62,9 +62,15 @@ class Song
     data_2 = data[1].split(".mp3").join()
     song.name = data_2
     return song 
-end 
+  end 
 
-def self.create_from_filename(mp3)
-  @@all << self.new_from_filename(mp3)
-end 
+  def self.create_from_filename(mp3)
+    @@all << self.new_from_filename(mp3)
+  end 
+  
+  def self.destroy_all
+    
+  end 
+
+
 end
