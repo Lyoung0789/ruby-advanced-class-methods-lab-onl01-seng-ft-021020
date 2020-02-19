@@ -21,7 +21,7 @@ class Song
     song
   end 
   
-  def self.bew_by_name
+  def self.bew_by_name(song)
     
   end 
 end
