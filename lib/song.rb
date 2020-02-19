@@ -25,5 +25,6 @@ class Song
     song = self.new
     puts song
     song.name = name
+    song.name
   end 
 end
