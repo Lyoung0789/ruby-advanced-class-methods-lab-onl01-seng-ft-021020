@@ -64,5 +64,7 @@ class Song
     return song 
 end 
 
-
+def self.create_from_filename(mp3)
+  @@all << self.new_from_filename(mp3)
+end 
 end
