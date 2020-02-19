@@ -20,4 +20,8 @@ class Song
     Song.all << song
     song
   end 
+  
+  def self.bew_by_name
+    
+  end 
 end
