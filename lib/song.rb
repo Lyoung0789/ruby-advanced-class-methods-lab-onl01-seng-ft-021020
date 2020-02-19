@@ -45,9 +45,6 @@ class Song
         return i 
       end
     end 
-        song = self.new
-        song.name = song_name 
-        @@all << song
-        return song
+    self.create_by_name(song_name)
   end 
 end
