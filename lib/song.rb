@@ -39,6 +39,15 @@ class Song
     end 
   end 
   
-  def self.find_or_create_by_name
+ def self.find_or_create_by_name(song_name)
+    @@all.each do |i| 
+      if i.name == song_name
+        return i 
+      end
+    end 
+        song = self.new
+        song.name = song_name 
+        @@all << song
+        return song
   end 
 end
