@@ -38,4 +38,7 @@ class Song
       i.name == name
     end 
   end 
+  
+  def self.find_or_create_by_name
+  end 
 end
