@@ -23,6 +23,7 @@ class Song
   
   def self.new_by_name(song)
     song = self.new
+    @name = song
     song.name
   end 
 end
