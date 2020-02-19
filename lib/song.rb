@@ -22,6 +22,7 @@ class Song
   end 
   
   def self.bew_by_name(song)
-    
+    song = self.new
+    song.name
   end 
 end
